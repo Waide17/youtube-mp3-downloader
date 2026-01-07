@@ -99,7 +99,7 @@ python src/app.py
 # Install Git from: https://git-scm.com/download/win
 
 # Clone repository
-git clone https://github.com/yourusername/youtube-mp3-downloader.git
+git clone https://github.com/Waide17/youtube-mp3-downloader.git
 cd youtube-mp3-downloader
 
 # Run installer
@@ -118,7 +118,7 @@ scripts\start.bat
 **Quick Install (Recommended)**
 ```bash
 # Download and extract
-wget https://github.com/yourusername/youtube-mp3-downloader/archive/main.zip
+wget https://github.com/Waide17/youtube-mp3-downloader/archive/main.zip
 unzip main.zip
 cd youtube-mp3-downloader-main
 
@@ -139,7 +139,7 @@ sudo apt update
 sudo apt install python3 python3-pip python3-venv
 
 # 2. Clone repository
-git clone https://github.com/yourusername/youtube-mp3-downloader.git
+git clone https://github.com/Waide17/youtube-mp3-downloader.git
 cd youtube-mp3-downloader
 
 # 3. Create virtual environment
@@ -179,7 +179,7 @@ sudo pacman -S python python-pip
 
 ```bash
 # Download and extract the project
-curl -L https://github.com/yourusername/youtube-mp3-downloader/archive/main.zip -o youtube-mp3-downloader.zip
+curl -L https://github.com/Waide17/youtube-mp3-downloader/archive/main.zip -o youtube-mp3-downloader.zip
 unzip youtube-mp3-downloader.zip
 cd youtube-mp3-downloader-main
 
@@ -203,7 +203,7 @@ chmod +x scripts/*.sh
 brew install python3
 
 # Clone repository
-git clone https://github.com/yourusername/youtube-mp3-downloader.git
+git clone https://github.com/Waide17/youtube-mp3-downloader.git
 cd youtube-mp3-downloader
 
 # Install dependencies
@@ -237,13 +237,13 @@ If Python is not installed:
 
 **Option A: Git Clone**
 ```bash
-git clone https://github.com/yourusername/youtube-mp3-downloader.git
+git clone https://github.com/Waide17/youtube-mp3-downloader.git
 cd youtube-mp3-downloader
 ```
 
 **Option B: Download ZIP**
 ```
-1. Go to: https://github.com/yourusername/youtube-mp3-downloader
+1. Go to: https://github.com/Waide17/youtube-mp3-downloader
 2. Click: Code → Download ZIP
 3. Extract ZIP file
 4. Open terminal/cmd in extracted folder
@@ -500,9 +500,9 @@ After installation, verify everything works:
 
 ## 📞 Need Help?
 
-- **Issues**: [GitHub Issues](https://github.com/yourusername/youtube-mp3-downloader/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/youtube-mp3-downloader/discussions)
-- **Email**: your.email@example.com
+- **Issues**: [GitHub Issues](https://github.com/Waide17/youtube-mp3-downloader/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/Waide17/youtube-mp3-downloader/discussions)
+- **Email**: gabrielepalladino0@gmail.com
 
 ---
 

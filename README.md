@@ -208,10 +208,6 @@ Contributions are welcome! Please:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 Acknowledgments
 
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp) - YouTube downloader
@@ -220,9 +216,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-Created by [@yourusername](https://github.com/yourusername)
+Created by [@Waide17](https://github.com/Waide17)
 
-Found a bug? [Open an issue](https://github.com/yourusername/youtube-mp3-downloader/issues)
+Found a bug? [Open an issue](https://github.com/Waide17/youtube-mp3-downloader/issues)
 
 ---
 

@@ -431,7 +431,7 @@ Manually open browser and go to: `http://localhost:5000`
 
 - [Installation Guide](INSTALL.md) - How to install
 - [README](README.md) - Project overview
-- [GitHub Issues](https://github.com/yourusername/youtube-mp3-downloader/issues) - Report bugs
+- [GitHub Issues](https://github.com/Waide17/youtube-mp3-downloader/issues) - Report bugs
 - [yt-dlp Documentation](https://github.com/yt-dlp/yt-dlp) - Advanced options
 
 ---
@@ -440,8 +440,8 @@ Manually open browser and go to: `http://localhost:5000`
 
 Need help? Found a bug?
 
-- **GitHub Issues**: [Report here](https://github.com/yourusername/youtube-mp3-downloader/issues)
-- **Discussions**: [Ask questions](https://github.com/yourusername/youtube-mp3-downloader/discussions)
+- **GitHub Issues**: [Report here](https://github.com/Waide17/youtube-mp3-downloader/issues)
+- **Discussions**: [Ask questions](https://github.com/Waide17/youtube-mp3-downloader/discussions)
 
 ---
 
