@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube MP3 Queue Downloader</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>YouTube MP3 Downloader</h1>
+        </div>
+
+        <div class="input-section">
+            <h2>Aggiungi URL alla coda</h2>
+            <textarea id="urlInput" placeholder="Incolla i link YouTube qui (uno per riga)..."></textarea>
+
+            <div class="button-group">
+                <button class="btn-primary" onclick="addToQueue()">Aggiungi alla Coda</button>
+                <button class="btn-success" id="startBtn" onclick="startQueue()" disabled>Avvia Download</button>
+                <button class="btn-danger" id="stopBtn" onclick="stopQueue()" disabled>Ferma</button>
+                <button class="btn-secondary" onclick="clearQueue()">Pulisci Coda</button>
+            </div>
+
+            <div class="status" id="status"></div>
+        </div>
+
+        <div class="queue-section">
+            <h2>
+                Stato Coda
+                <span id="processingIndicator" style="display: none;" class="processing">⚡</span>
+            </h2>
+
+            <div class="queue-stats">
+                <div class="stat-card">
+                    <div class="stat-number" id="queueCount">0</div>
+                    <div class="stat-label">In Coda</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="currentCount">0</div>
+                    <div class="stat-label">In Download</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="completedCount">0</div>
+                    <div class="stat-label">Completati</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="failedCount">0</div>
+                    <div class="stat-label">Falliti</div>
+                </div>
+            </div>
+
+            <div class="progress-bar" id="progressBar">
+                <div class="progress-fill" id="progressFill">0%</div>
+            </div>
+
+            <h3 style="color: #333; margin-bottom: 15px;">Download Corrente</h3>
+            <div id="currentItem"></div>
+
+            <h3 style="color: #333; margin: 20px 0 15px 0;">In Attesa</h3>
+            <div id="queueList"></div>
+
+            <h3 style="color: #333; margin: 20px 0 15px 0;">Completati</h3>
+            <div id="completedList"></div>
+
+            <div id="failedSection" style="display: none;">
+                <h3 style="color: #333; margin: 20px 0 15px 0;">Falliti</h3>
+                <div id="failedList"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

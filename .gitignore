@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+
+# Downloads (non commitare i file scaricati)
+downloads/
+*.mp3
+*.mp4
+*.webm
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+
+# Database (se aggiungi DB in futuro)
+*.db
+*.sqlite
+
+# Environment variables
+.env
+.env.local
+
+# Build tools
+node_modules/
+package-lock.json
