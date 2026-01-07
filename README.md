@@ -26,14 +26,6 @@
 - 🎯 **No Duplicates** - Prevents adding the same video twice
 - 💾 **Lightweight** - Runs locally on your machine
 
-## 📸 Screenshots
-
-### Main Interface
-![Main Interface](docs/screenshots/main.png)
-
-### Queue Management
-![Queue System](docs/screenshots/queue.png)
-
 ## 🚀 Quick Start
 
 ### Windows
