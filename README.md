@@ -9,7 +9,7 @@
 
 **Download YouTube videos as MP3 with an intelligent queue system**
 
-[Features](#-features) • [Installation](#-installation) • [Usage](#-usage) • [Screenshots](#-screenshots)
+[Features](#-features) • [Installation](#-installation) • [Usage](#-usage)
 
 </div>
 
